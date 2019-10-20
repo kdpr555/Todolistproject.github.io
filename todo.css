@@ -47,9 +47,9 @@ li{
     height:35px;
     color:#666;
 }
-li:nth-child(2n){
+/*li:nth-child(2n){
     background: #f7f7f7;
-}
+}*/
 #plus{
     float:right;
 }
