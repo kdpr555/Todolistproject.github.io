@@ -1,0 +1,71 @@
+h2{
+    background: #2980b9;
+    color:aliceblue;
+    font-weight: normal;
+    padding:10px 20px;
+    margin:0;
+}
+.container{
+    width:300px;
+    margin:100px auto;
+    box-shadow: 0 0 3px rgb(0, 0, 0, 0.1);
+    background: #f7f7f7;
+    border: 2px solid rgba(0,0,0,0);
+}
+.toggle{
+    color:grey;
+    text-decoration: line-through;
+}
+.inp{
+    width:100%;
+    background: #f7f7f7;
+    height:40px;
+    box-sizing: border-box;/*it includes only border and padding*/
+    color:#2980b9;
+}
+.inp:focus{
+    background: white;
+    border:2px solid #2980b9; 
+}
+body{
+   /* background: url("../Todolistproject/Bora%20Bora.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;*/
+    background: #2bc0e4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2bc0e4, #eaecc6); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2bc0e4, #eaecc6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+ul{
+    margin:0;
+    list-style:none;
+    padding:0;
+}
+li{
+    background: white;
+    line-height: 35px;
+    height:35px;
+    color:#666;
+}
+li:nth-child(2n){
+    background: #f7f7f7;
+}
+#plus{
+    float:right;
+}
+#trash{
+    width:0;
+    height:35px;
+    background: #e74c3c;
+    color:white;
+    text-align:center;
+    margin-right:20px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    opacity:0;
+    transition: 0.2s linear;
+}
+li:hover #trash{
+    width:40px;
+    opacity:1.0;
+}
