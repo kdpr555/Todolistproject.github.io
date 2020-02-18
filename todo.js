@@ -1,19 +1,3 @@
-$("ul").on("click","li",function(){
-    /*if($(this).css("color")=="rgb(0, 0, 0)"){
-        $(this).css({
-            color:"grey",
-            textDecoration:"line-through"
-        })
-    }
-    else{
-         $(this).css({
-            color:"black",
-             textDecoration:"none"
-        })
-    }*/
-    $(this).toggleClass("toggle");
-});
-
 $("input").keypress(function(event){
 if(event.which==13){
     var toadd=$(this).val();
